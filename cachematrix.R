@@ -1,7 +1,6 @@
 ## A set of functions that cache the inverse of a matrix.
 
 ## This function creates a special "matrix" object that can cache its inverse.
-
 makeCacheMatrix <- function(x = matrix()) {
 
 # initialize the inverse matrix
@@ -32,7 +31,6 @@ makeCacheMatrix <- function(x = matrix()) {
 ## then the cachesolve should retrieve the inverse from the cache.
 
 cacheSolve <- function(x, ...) {
-
 # Return inverse of matrix x
   inverse <- x$getInverse()
   
